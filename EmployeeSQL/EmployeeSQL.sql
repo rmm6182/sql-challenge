@@ -83,3 +83,11 @@ FROM "Employees"
 GROUP BY last_name
 ORDER BY last_name;
 
+-------------------------------------------------------------------------------------------
+--Epilogue
+---haha
+
+SELECT emp_no,first_name,last_name 
+FROM "Employees"
+WHERE emp_no = 499942
+
